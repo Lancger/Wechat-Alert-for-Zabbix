@@ -43,7 +43,7 @@ if __name__ == '__main__':
     #Touser = sys.argv[1]
     Toparty = sys.argv[1]                         #web前端传过来的部门id
     Content = sys.argv[2]                         #web前端传过来的告警内容
-    Corpid = "wwd618cb53fdf20d94 "
+    Corpid = "wwd618cb53fdf20d94"
     Secret = "HeD64P1nPSTWaUhp_Yne_MY7IsA7lhF-EUZaCOmb_gY"
     Agentid = "1000003"
 
