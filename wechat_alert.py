@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#Author:loong576
+#Author:Lancger
 #Alert for wechat
 #Version:1.0
 
@@ -43,9 +43,9 @@ if __name__ == '__main__':
     #Touser = sys.argv[1]
     Toparty = sys.argv[1]                         #web前端传过来的部门id
     Content = sys.argv[2]                         #web前端传过来的告警内容
-    Corpid = "ww6b6da9aedc0b137d"
-    Secret = "xtHo9zSM8NMm6-eOnCc2qnjox5flEdWGlKBdPcWoUow"
-    Agentid = "1000002"
+    Corpid = "wwd618cb53fdf20d94 "
+    Secret = "HeD64P1nPSTWaUhp_Yne_MY7IsA7lhF-EUZaCOmb_gY"
+    Agentid = "1000003"
 
     Token = Get_Token(Corpid,Secret)
     print Get_Token(Corpid,Secret)
